@@ -1,0 +1,58 @@
+.pc-product
+{
+    width: 200px;
+}
+.single-item
+{
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+    display: flexbox;
+    width: 750px;
+font-size: 10px;}
+.single-item:hover{
+    border: 2px solid aqua;
+}
+#total-price
+{
+    width: 500px;
+    text-align: center;
+    color: #2196f3;
+    border: 2px solid black;
+;}
+.shop-now
+{
+
+    right: 0%;
+    width: 200px;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.shop-now button
+{
+    cursor: pointer;
+    background-color: darkcyan;
+    text-align: center;
+    width: 200px;
+}
+.shop-now button:hover
+{
+    background-color: black;
+    color: white;
+}
+.remove
+{
+    color: red;
+}
+.remove:hover
+{
+    color: black;
+}
+i{
+    cursor: pointer;
+}
+#item-price
+{
+    padding: 20px;
+}
